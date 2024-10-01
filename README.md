@@ -29,3 +29,47 @@ Breakout Discussion Questions:
 How did the performance of each model compare on your dataset?
 Did the application of dimensionality reduction improve or worsen the results? Why?
 Which model would you choose for deployment based on the results, and why?
+
+
+Decision Tree Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      2416
+           1       0.52      0.53      0.52       584
+
+    accuracy                           0.81      3000
+   macro avg       0.70      0.70      0.70      3000
+weighted avg       0.81      0.81      0.81      3000
+
+KNN Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.86      0.95      0.90      2416
+           1       0.63      0.36      0.46       584
+
+    accuracy                           0.83      3000
+   macro avg       0.74      0.65      0.68      3000
+weighted avg       0.81      0.83      0.81      3000
+
+Random Forest Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92      2416
+           1       0.76      0.46      0.57       584
+
+    accuracy                           0.87      3000
+   macro avg       0.82      0.71      0.75      3000
+weighted avg       0.86      0.87      0.85      3000
+
+
+Decision Tree with PCA Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.84      0.83      0.84      2416
+           1       0.34      0.36      0.35       584
+
+    accuracy                           0.74      3000
+   macro avg       0.59      0.59      0.59      3000
+weighted avg       0.74      0.74      0.74      3000
+
+
